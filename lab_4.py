@@ -1,0 +1,27 @@
+import turtle
+meep = turtle.clone()
+turtle.bgcolor('purple')
+turtle.pencolor('yellow')
+turtle.width(4)
+turtle.shape('circle')
+turtle.left(90)
+turtle.goto(0,150)
+turtle.left(90)
+turtle.forward(75)
+turtle.color('white')
+turtle.left(90)
+turtle.forward(150)
+meep.pencolor('green')
+meep.shape('arrow')
+meep.width(7)
+meep.right(90)
+meep.forward(150)
+meep.left(90)
+meep.forward(75)
+meep.color('blue')
+meep.left(90)
+meep.forward(150)
+
+
+
+turtle.mainloop()
